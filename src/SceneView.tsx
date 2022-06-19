@@ -120,7 +120,7 @@ export default class SceneView<T extends Route> extends React.Component<
             : focused
             ? StyleSheet.absoluteFill
             : null,
-          style,
+          {overflow:'visible'},
         ]}
       >
         {
